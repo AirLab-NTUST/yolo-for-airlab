@@ -1,0 +1,10 @@
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/airlab/Desktop/pawat/yolov5/data/custom/cig/images/train  # 128 images
+val: /home/airlab/Desktop/pawat/yolov5/data/custom/cig/images/train  # 128 images
+
+# number of classes
+nc: 6
+
+# class names
+names: ['blue_b', 'blue_f','darkblue_b','darkblue_f','red_b','red_f']
